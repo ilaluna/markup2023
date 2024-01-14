@@ -1,0 +1,71 @@
+---
+title: "My Reproducible Manuscript"
+format: 
+  html: default
+  pdf: default
+  plos-pdf:
+    keep-tex: true 
+bibliography: references.bib
+---
+
+```{r, echo=FALSE}
+library(palmerpenguins)
+library(ggplot2)
+```
+
+### Meet Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+### Meet the penguins
+
+::: columns
+::: {.column width="60%"}
+The `penguins` data from the [[**palmerpenguins**]{.underline}](#quarto-anatomy) [@horst2022] package contains size measurements for `r sum(penguins$species == "Gentoo" | penguins$species == "Chinstrap")` penguins from the three species observed on the three islands in the Palmer Archipelago, Antartica.
+
+<br>
+
+The plot below shows the relationship between flipper and bill lengths of these penguins. @shrestha2021 say blah. A simple calculation is `r 25 + 25` and the mean of the penguins' body mass is `r round(mean(penguins$body_mass_g, na.rm=T), 1)`
+:::
+
+::: {.column width="40%"}
+![](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins)
+:::
+:::
+
+### Results
+
+```{r, warning=FALSE, echo=FALSE, fig.align='right'}
+ggplot(penguins, 
+       aes(x = flipper_length_mm, y = bill_length_mm)) +
+        geom_point(aes(color = species, shape = species)) +
+        scale_color_manual(values = c("darkorange","purple","cyan4")) +
+        labs(
+                title = "Flipper and bill length",
+                subtitle = "Dimensions for penguins at Palmer Station LTER",
+                x = "Flipper length (mm)", y = "Bill length (mm)",
+                color = "Penguin species", shape = "Penguin species"
+        ) +
+        theme_minimal()
+```
+
+### Sourcing code
+
+```{r}
+#| label: Include the do_addition.R function in the current file
+#| file: ".../scripts/do_addition.R"
+#source("../scripts/do_addition.R")
+```
+
+```{r, file = "../scripts/do_addition.R"}
+#| label: perform an addition to check whether the sourcing worked
+a <- 4
+b <- 3
+do_addition(a, b)
+```
+
+### References
+
+::: {#refs}
+:::
+
