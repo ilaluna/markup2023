@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ilaria Francesca Lunardelli",
+    "section": "",
+    "text": "Ilaria Francesca Lunardelli is a statistics student at Utrecht University. Besides her studies, she is currently working at Utrecht University as reserach assistant and at Centraal Bureau voor de Statistiek as intern. In her free time, Ilaria enjoys spending time with her dog “Bimba” and cooking."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Ilaria Francesca Lunardelli",
+    "section": "",
+    "text": "Ilaria Francesca Lunardelli is a statistics student at Utrecht University. Besides her studies, she is currently working at Utrecht University as reserach assistant and at Centraal Bureau voor de Statistiek as intern. In her free time, Ilaria enjoys spending time with her dog “Bimba” and cooking."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Ilaria Francesca Lunardelli",
+    "section": "Education",
+    "text": "Education\nUtrecht University, Utrecht | the Netherlands M.A in Methodology and Statistics for the Behavioral, Biomedical and Social Sciences | Sept 2022 - present\nUniversity of Florence, Florence | Italy B.A in Economic Development | Sept 2019 - June 2022"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Ilaria Francesca Lunardelli",
+    "section": "Experience",
+    "text": "Experience\nUtrecht University | Student Assistant | May 2023 - present\nCentraal Bureau voor de Statistiek | Internship project on smart surveys | Sept 2023 - present"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Ilaria Francesca Lunardelli",
+    "section": "Skills",
+    "text": "Skills\nProgramming\nR and RStudio, Mplus.\nSoftware\nLatex, Quarto, Office package.\nForeign Languages\nmother tongue: Italian, advanced: English, intermediate: French, intermediate: German."
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "M.A in Methodology and Statistics for the Behavioral, Biomedical and Social Sciences\nUtrecht University, Utrecht | the Netherlands | Sept 2022 - present\nB.A in Economic Development\nUniversity of Florence, Florence | Italy | Sept 2019 - June 2022\n\nFinal grade 110/110"
+  },
+  {
+    "objectID": "CV.html#experience",
+    "href": "CV.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\nInternship project on smart surveys\nCentraal Bureau voor de Statistiek | Sept 2023 - present\nInternship for Master thesis on the project \"Predicting Smart Survey Participation\". This project is part of the Smart Survey Implementation project, which is funded by Eurostat.\n• Analyses on determinants of willingness to participate in smart surveys within and between the Netherlands, Italy and Slovenia.\n• Machine learning modeling of willingness to participate in smart surveys through administrative variables.\nStudent Assistant\nUtrecht University | May 2023 - present\nResearch assistant in projects on Youth non-response and interactive surveys.\n• Literature reviews of the researched topic.\n• Assessment of the suitability of available tools for developing new research areas."
+  },
+  {
+    "objectID": "CV.html#skills",
+    "href": "CV.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\nProgramming\nR and RStudio, Mplus.\nSoftware\nLatex, Quarto, Office package.\nForeign Languages\nmother tongue: Italian, advanced: English, intermediate: French, intermediate: German."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "PROJECT TO GET FAMILIAR WITH PYTHON’S MAIN STATISTICAL AND DATA SCIENCE PACKAGES\n• Basic exploration of the data-set and a multivariate linear model in order to predict how much each country spends on defense, based on some of its economical and size indicators."
+  }
+]
